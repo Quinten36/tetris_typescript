@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(135deg, rgb(2, 0, 36) 15%, rgb(9, 9, 121) 34%, rgb(45, 63, 156) 53%, rgb(53, 124, 139) 71%, rgb(97, 122, 201) 86%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  scroll-behavior: unset;
+  overflow: hidden;
+}
+body h2 {
+  margin: 15px auto 0;
+  text-align: center;
+  color: #e8d5ca;
+}
+body div.gameWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+body div.gameWrapper div.holdBlockHolder {
+  width: 150px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+body div.gameWrapper div.holdBlockHolder div.holdBlock {
+  background-color: rgb(2, 0, 36);
+  width: 150px;
+  height: 75px;
+  border: 2px solid rgb(197, 213, 213);
+}
+body div.gameWrapper div.holdBlockHolder div.holdBlock h4 {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(197, 213, 213);
+  color: #07065F;
+}
+body div.gameWrapper div.holdBlockHolder div.holdBlock div {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(2, 0, 36);
+}
+body div.gameWrapper div.holdBlockHolder div.holdBlock::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 25px;
+  background: linear-gradient(106deg, #050444, #06054D);
+  transform: rotate(45deg);
+  position: relative;
+  top: 8%;
+  left: -9%;
+  border-top: 2px rgb(197, 213, 213) solid;
+}
+body div.gameWrapper div.boardHolder {
+  display: inline-block;
+  min-height: 400px;
+  background-color: rgb(65, 56, 190);
+  min-width: 256px;
+  padding: 1px;
+  border: 2px solid white;
+  border-top: none;
+}
+body div.gameWrapper div.boardHolder div.playBoard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 256px;
+}
+body div.gameWrapper div.boardHolder div.playBoard div {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(19, 24, 60, 0.8);
+  margin: 0.3px;
+}
+body div.gameWrapper div.nextBlockWrapper {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+}
+body div.gameWrapper div.nextBlockWrapper div.nextBlockContainer {
+  background-color: rgb(2, 0, 36);
+  width: 150px;
+  height: 400px;
+  border: 2px solid rgb(197, 213, 213);
+}
+body div.gameWrapper div.nextBlockWrapper div.nextBlockContainer h4 {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(197, 213, 213);
+  color: #07065F;
+}
+body div.gameWrapper div.nextBlockWrapper div.nextBlockContainer::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 25px;
+  background: linear-gradient(162deg, #387C8F, #3D7B96);
+  transform: rotate(-45deg);
+  position: relative;
+  bottom: -92.8%;
+  right: -95%;
+  border-top: 2px rgb(197, 213, 213) solid;
+}/*# sourceMappingURL=game.css.map */

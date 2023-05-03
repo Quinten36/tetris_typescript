@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(135deg, rgb(2, 0, 36) 15%, rgb(9, 9, 121) 34%, rgb(45, 63, 156) 53%, rgb(53, 124, 139) 71%, rgb(97, 122, 201) 86%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  scroll-behavior: unset;
+}
+body h1 {
+  color: red;
+}
+body h2 {
+  margin: 15px auto 0;
+  text-align: center;
+  color: #e8d5ca;
+}
+body div.ruleHolder {
+  max-width: 68%;
+  background-color: yellow;
+  padding: 7px;
+  border-radius: 39px 5px;
+  margin: 25px auto 0;
+}
+body div.ruleHolder h4 {
+  color: red;
+  font-size: 1.1em;
+  text-align: center;
+  margin: 0 65% 0 0;
+}
+body div.ruleHolder ul {
+  list-style-type: disclosure-closed;
+}
+body div.startBtnHolder {
+  display: flex;
+  justify-content: center;
+}
+body div.startBtnHolder button.startBtn {
+  color: azure;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px 4px;
+  cursor: pointer;
+  background-color: linear-gradient(135deg, rgb(2, 0, 36) 15%, rgb(9, 9, 121) 34%, rgb(45, 63, 156) 53%, rgb(53, 124, 139) 71%, rgb(97, 122, 201) 86%);
+  border: 2px solid #f44336;
+}/*# sourceMappingURL=style.css.map */
